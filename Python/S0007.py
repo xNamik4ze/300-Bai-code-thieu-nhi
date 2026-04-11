@@ -7,7 +7,6 @@ class Solution:
             digit = x % 10
             res = res * 10 + digit
             x //= 10
-        if res > 2**31:
-            return 0
+        if res > 2**31: return 0
         res *= mark
         return res
