@@ -6,8 +6,7 @@ class Solution:
         while l < r:
             long = r - l
             current = long * min(height[l], height[r])
-            if current > res:
-                res = current
+            if current > res: res = current
             if height[l] < height[r]:
                 l += 1
             else:
