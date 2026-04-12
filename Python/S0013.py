@@ -1,7 +1,7 @@
 class Solution:
     def romanToInt(self, s: str) -> int:
         roman_value = {
-            'I' : 1,
+            'I': 1,
             'V': 5,
             'X': 10,
             'L': 50,
