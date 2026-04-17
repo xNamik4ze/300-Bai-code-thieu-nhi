@@ -14,4 +14,4 @@ class Solution:
                 lis.pop()
             else: return False
         if lis: return False
-        else: return True
+        else: return True 
