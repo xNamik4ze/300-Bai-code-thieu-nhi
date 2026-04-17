@@ -13,4 +13,4 @@ class Solution:
             else:
                 return "".join(res)
             count += 1
-        return "".join(res) 
+        return "".join(res)
