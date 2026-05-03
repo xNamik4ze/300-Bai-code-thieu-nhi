@@ -20,6 +20,6 @@ class Solution:
         if list1:
             current.next = list1
         if list2:
-            current.next = list2
+            current.next = list2        
         
         return dummy.next
