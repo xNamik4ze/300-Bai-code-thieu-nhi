@@ -8,4 +8,4 @@ class Solution:
                 n -= 1
             else:
                 k += 1
-        return k
+        return k 
