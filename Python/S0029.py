@@ -12,8 +12,8 @@ class Solution:
                 mul += mul
             dividend -= temp_div
             res += mul
-        mark  = mark1 + mark2
-        if mark  == 0:
+        mark = mark1 + mark2
+        if mark == 0:
             res = 0 - res
         if res < -2**31:
             return -2**31
