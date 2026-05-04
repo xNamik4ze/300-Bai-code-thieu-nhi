@@ -10,7 +10,7 @@ class Solution:
             while nums[i] >= nums[j]: j -= 1
             nums[i], nums[j] = nums[j], nums[i]
         l, r = i + 1, len(nums) - 1
-        while l < r: 
+        while l < r:
             nums[l], nums[r] = nums[r], nums[l]
             l += 1
             r -= 1
