@@ -2,9 +2,7 @@ class Solution:
     def trap(self, height: List[int]) -> int:
         l = 0
         r = len(height) - 1
-        lmax = 0
-        rmax = 0
-        res = 0
+        lmax = rmax = res = 0
         while l < r:
             if height[l] < height[r]:
                 if height[l] > lmax:
