@@ -10,7 +10,7 @@ class Solution:
                 product = (ord(num1[i]) - ord('0')) * (ord(num2[j]) - ord('0'))
                 total = product + res[i+j+1]
                 res[i+j+1] = total % 10
-                res[i+j] += total // 10 
+                res[i+j] += total // 10
         ans = "".join(map(str, res))
         return ans.lstrip('0')
 
