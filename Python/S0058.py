@@ -6,4 +6,4 @@ class Solution:
                 count += 1
             elif count > 0:
                 return count
-        return count
+        return count 
