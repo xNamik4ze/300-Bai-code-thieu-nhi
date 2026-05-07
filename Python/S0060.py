@@ -9,7 +9,7 @@ class Solution:
         while numbers:
             n_left = len(numbers)
             case = factorial(n_left-1)
-            index = k // case   
+            index = k // case
             res += numbers[index]
             numbers.pop(index)
             k %= case
