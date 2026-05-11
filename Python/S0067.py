@@ -9,6 +9,6 @@ class Solution:
             total = val1 + val2 + rem
             res.append(str(total % 2))
             rem = total // 2
-            i -= 1
+            i -= 1 
             j -= 1
         return ''.join(res[::-1])
