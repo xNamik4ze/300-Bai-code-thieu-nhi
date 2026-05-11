@@ -5,5 +5,5 @@ class Solution:
                 return 1
             return n * factorial(n - 1)
         total = m + n - 2
-        res = factorial(total) // (factorial(m-1)*factorial(n-1))
+        res = factorial(total) // (factorial(m-1) * factorial(n-1))
         return res
