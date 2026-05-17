@@ -7,5 +7,5 @@ class Solution:
                 right -= 1
             elif numbers[left] + numbers[right] < target:
                 left += 1
-            else:
+            else: 
                 return [left + 1, right + 1]
