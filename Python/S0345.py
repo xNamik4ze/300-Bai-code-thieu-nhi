@@ -4,7 +4,7 @@ class Solution:
         vowels = set("aeiouAEIOU")
         l, r = 0, len(lis) - 1
         while l < r:
-            while lis[l] not in vowels and l < r:
+            while lis[l] not in vowels and l < r: 
                 l += 1
             while lis[r] not in vowels and l < r:
                 r -= 1
