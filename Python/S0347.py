@@ -10,7 +10,7 @@ class Solution:
 
         result = []
         for i in range(len(nums), 0, -1):
-            for num in lis[i]:
+            for num in lis[i]: 
                 result.append(num)
                 if len(result) == k:
                     return result
